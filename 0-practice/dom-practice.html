@@ -42,16 +42,16 @@
         var clickCount = 0
 
         // access the button element from the DOM by specifying its unique identifier
-        //var myBtn = document.getElementById("my-awesome-btn")
+        var myBtn = document.getElementById("my-awesome-btn")
 
         // define a click event handler function
-        //function myBtnClick() {
-        //    clickCount = clickCount + 1
-        //    console.log("YOU CLICKED ME", clickCount, "TIMES! :-)")
-        //}
+        function myBtnClick() {
+            clickCount = clickCount + 1
+            console.log("YOU CLICKED ME", clickCount, "TIMES! :-)")
+        }
 
-        // register the handler function to the button's click event
-        //myBtn.addEventListener("click", myBtnClick, false)
+         register the handler function to the button's click event
+        myBtn.addEventListener("click", myBtnClick, false)
 
     </script>
 </body>
